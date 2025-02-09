@@ -1,0 +1,194 @@
+.container{
+    background-color: black;
+    color: white;
+    border:2px solid black;
+    width:auto;
+    height: auto;
+}
+.header{
+    width:auto;
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:18px 10px;    
+}
+.navbar{
+    border:2px solid transparent;
+    width:auto;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nf-logo-img{
+    width:150px;
+    height:50px;
+    padding-left:  160px;    
+}
+.button{
+    padding-right:160px;
+}
+.sign-in-btn{
+    border-radius: 6px;
+    background-color: rgb(201, 3, 3);
+    color: rgba(255, 255, 255, 0.95);
+    width:80px;
+    height:35px;
+    font-size: 14px;
+    margin-left:15px; 
+    cursor: pointer;  
+}
+.lang-btn{
+    border-radius: 6px;
+    background:transparent ;
+    border:1px solid white;
+    color: white;
+    width:120px;
+    height:35px;
+    font-size: 14px;
+}
+#lang{
+    overflow: hidden;
+    border: none;
+    background:transparent ;
+    color: white;
+}
+.content{
+    border:2px solid white transparent;
+    width:100%;
+    height:650px;
+}
+.c1{
+    border:2px solid white transparent;
+    width:80%;
+    height:180px;
+    margin: auto;
+    margin-top: 110px;
+}
+.h1{
+    font-size: 50px;
+    text-align: center;
+}
+.c2{
+    border: 2px solid white transparent;
+    width:70%;
+    height:50px;
+    padding:0px 240px;
+}
+.email{
+    border: 2px solid white;
+    width:430px;
+    height:50px;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    padding-left: 10px;
+}
+.submit-btn{
+    width:200px;
+    height:60px;
+    background-color: rgb(255, 42, 42);
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.submit-btn-img{
+    height:15px;
+    width:20px;
+    padding-left: 7px;
+}
+.box{
+    display: flex;
+    margin: auto;
+    width: 1315px;
+    height:350px;
+    padding: 110px 90px;
+    background-color: black;
+}
+.col-1 >h1{
+    font-size: 50px;
+    padding:80px;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+.col-1>p{
+    border: 2px solid white transparent;
+    width:630px;
+    font-size: 28px;
+    text-align: left;
+    padding-left: 10px;
+}
+.col-2-img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    padding-left: 30px;
+}
+.border{
+    border: 4px solid rgb(89, 88, 88);
+}
+.box1{
+    margin: auto;
+    width: 1315px;
+    height:890px;
+    padding: 40px 90px;
+    background-color: black;
+}
+.box1>h1{
+    font-size: 60px;
+    text-align: center;
+}
+.btn{
+    width:1200px;
+    height:90px;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    margin-bottom: 8px;
+    cursor: pointer; 
+    margin-left: 50px;
+    margin-right: 50px;  
+}
+.footer{
+    margin: auto;
+    width: 1300px;
+    height:300px;
+    background-color: black;
+    padding: 60px 100px;
+    display: flex;
+}
+.col1{
+    padding-left: 65px;
+}
+.col1>p{
+    color: rgb(182, 181, 178);
+    line-height: 20px;
+    font-size: 17px;
+}
+.col1>p>u{
+    cursor: pointer;
+}
+.col2{
+    padding:40px 65px;
+}
+.col2>p{
+    color: rgb(182, 181, 178);
+    line-height: 20px;
+    font-size: 16px;
+}
+.col2>p>u{
+    cursor: pointer;
+}
+.sign-in-btn:hover, .submit-btn:hover, .btn:hover {
+    background-color: #0952e5;
+    transition: background-color 0.3s ease;
+}
+
